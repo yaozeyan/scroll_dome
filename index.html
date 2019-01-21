@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gbk">
+		<meta name="robots" content="all">
+		<meta name="author" content="Tencent-CP">
+		<meta name="Copyright" content="Tencent">
+		<meta name="Description" itemprop="description" content="《极品飞车ONLINE》官方网站。《极品飞车ONLINE》是EA经典赛车游戏《极品飞车》系列的网游新作。游戏基于寒霜3引擎开发制作，给玩家带来的是强大的光影效果、丰富的细节表现以及真实的物理碰撞。爽快的操作手感，激情的游戏音效，丰富的比赛模式、车辆养成和丰富的社交系统会带给玩家最真实最爽快的赛车竞技体验。"/>
+		<meta name="Keywords" content="极品飞车、极品飞车OL、极品飞车ONLINE、赛车游戏、竞速、NFS、needforspeed、速度、极品飞车、nfs、赛车、飞车、飙车、竞速、QQ飞车、跑跑卡丁车、最高通缉、漂移、热力追踪、头文字D、速度激情、无限试驾、赛车游戏、狂野飙车、真实赛车、极限竞速、GTA、F1、跑车、超跑、尘埃、超级房车赛、疯狂出租车、横冲直撞、赛道狂飙、山脊赛车、死亡拉力赛、侠盗飞车、飘移、摩托赛车、山地赛车、方程式、终极越野、赛道、拉力越野赛、卡丁车" />
+		<title>极品幸运之旅-极品飞车ONLINE官方网站-腾讯游戏</title>
+		<link rel="stylesheet" type="text/css" href="ossweb-img/jquery.mCustomScrollbar.css"/>
+		<!--//game.gtimg.cn/images/nfsol/cp/a20180803jpfcdbj/-->
+		<style type="text/css">
+			body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+			table{border-collapse:collapse;border-spacing:0}
+			fieldset,img{border:0}
+			address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+			ol,ul{list-style:none}
+			caption,th{text-align:left}
+			h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+			q:before,q:after{content:''}
+			abbr,acronym{border:0;font-variant:normal}
+			sup{vertical-align:text-top}
+			a{text-decoration:none;outline: none;}
+			sub{vertical-align:text-bottom}
+			input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+			input,textarea,select{*font-size:100%}
+			*{font-family:"Microsoft YaHei";}
+			a:hover,a:active,a:visited,a:link,a:focus{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline:none;}
+			.pr {position:relative;}
+			.pa {position:absolute;}
+			.ov_hi{overflow: hidden;}
+			.db {display:block;text-indent:-999em;}
+			body{width: 100%;height: 100%;}
+			.clearfix:after{clear:both;display:block;visibility:hidden;height:0;content:" ";font-size:0}.clearfix{*zoom:1}
+			.fl{float:left;_display:inline;}
+			.fr{float:right;_display:inline;}
+			.content_7{width: 1380px; height:800px; padding:20px;margin: 0px auto 0px;}
+			/*font*/
+			@font-face {
+				font-family:o;
+				src: url(font/FZRUIZHJW_0.TTF);
+			}
+			@font-face {
+				font-family:cu;
+				src: url(font/FZRUIZHJW_CU.TTF);
+			}
+			@font-face {
+				font-family:xian;
+				src: url(font/FZRUIZHJW_XIAN.TTF);
+			}
+			@font-face {
+				font-family:zhong;
+				src: url(font/FZRUIZHJW_ZHONG.TTF);
+			}
+			@font-face {
+				font-family:zhun;
+				src: url(font/FZRUIZHJW_ZHUN.TTF);
+			}
+			@font-face {
+				font-family:jw;
+				src: url(font/FZRUIZHJW.TTF);
+			}
+			/*bg*/
+			.bg1 {width: 1380px;height: 542px;background: url(ossweb-img/1.jpg) no-repeat;overflow: hidden;}
+			.bg2 {width: 1380px;height: 603px;background: url(ossweb-img/2.jpg) no-repeat;overflow: hidden;}
+			.bg3 {width: 1380px;height: 651px;background: url(ossweb-img/3.jpg) no-repeat;overflow: hidden;}
+			.mCustomScrollBox>.mCSB_scrollTools {right: 14px !important;background: #282e32 !important;}
+			.mCS-light-2>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {width: 10px;}
+			.mCS-light-2>.mCSB_scrollTools .mCSB_draggerRail {width: 10px;}
+			/*bg1*/
+			.bg1-title {width: 1225px;height: 50px;margin: 37px auto 0px;font-family: jw;font-size: 28px;color: #fff;line-height: 50px;text-indent: 5px;}
+			.bg1-time {font-family: jw;font-size: 14px;color: #fff;display: inline-block;margin-left: 170px;line-height: 50px;}
+			.rule {width: 756px;height: 136px;margin-left: 68px;margin-top: 14px;}
+			.rule-title {font-size: 16px;color: #bfcfd9;text-indent: 24px;}
+			.yuan {width: 15px;height: 15px;border-radius: 50%;font-size: 14px;color: #46535c;text-align: center; line-height: 15px;display:inline-block;background: #fffb00;margin-right: 8px;}
+			.rule-li {font-size: 14px;color: #bfcfd9;font-family: jw;margin-top: 12px;}
+			.buy-box {width: 587px;height: 249px;margin-left: 120px;margin-top: 28px;}
+			.buy {width: 247px;height: 249px;text-align: center;font-family: zhong;font-size: 14px;color: #fff;position: relative;}
+			.buy img {margin-top: 8px;}
+			.jiang {height: 20px;font-size: 14px;line-height: 20px;color: #fff;font-family: zhong;text-align:center;position: absolute;top: 0px;left: 0px;right: 0;bottom: 0;margin-top: 150px;}
+			.btn {width: 116px;height: 47px;display: block;text-align: center;line-height: 47px;font-family: zhong;font-size: 20px;color: #fff;background: url(ossweb-img/btn.jpg) no-repeat;float:left;margin-right: 15px;margin-top: 22px;}
+			.last {margin-right: 0px;margin-top: 22px;}
+			/*bg2*/
+			.bg2-title {width: 1225px;height: 50px;margin: 0px auto 0px;font-family: jw;font-size: 28px;color: #fff;line-height: 37px;text-indent: 5px;}
+			.lottery-box {width: 1157px;height: 447px;margin: 55px auto 0px;position: relative;}
+			.lot {width: 218px;height: 136px;background: url(ossweb-img/lot-back.png) no-repeat;float: left;margin-right: 16px;position: relative;}
+			.lot1 {float: right !important;margin-right: 0px !important;}
+			.last1 {margin: 0px !important;}
+			.lot-box {width: 1153px;height: 136px;float: left;margin-top: 20px;margin-bottom: 20px;position: relative;}
+			.lot-btn {width:283px;height: 63px;background: url(ossweb-img/lot-btn.png) no-repeat;float: left;margin-top: 34px;margin-left: 62px;text-align: center;line-height: 63px;font-size: 27px;color: #fff;font-family: zhong;display: block;}
+			.btn-r {margin-left: 20px;position: relative; z-index: 999;} 
+			.lot-num {width: 140px;height: 30px;line-height: 30px;text-align:center;font-size: 20px;color: #fff;font-family: zhong;position: absolute;left: 0px;top: 0px;right: 0;bottom: 0;margin: auto;margin-top: 114px}
+			.f {height: 40px; font-family: zhong;font-size: 24px;color: #62c4ff;position: absolute;display: block;text-decoration:underline;}
+			.go-buy {left: 390px;bottom: -65px;}
+			.look-buy {right: 390px;bottom: -65px;}
+			/*bg3*/
+			.bg3-title {width: 1225px;height: 50px;margin: 0px auto 0px;font-family: jw;font-size: 28px;color: #fff;line-height: 50px;text-indent: 5px;}
+			/*.lot img {position: relative;z-index: 9;}*/
+			.shadow {width: 218px;height: 136px;background: url(ossweb-img/shadow.png) no-repeat top center;position: absolute;z-index: 99;}
+			/*dialog*/
+			.dia-con {width: 663px;height: 394px;background: url(ossweb-img/dialog.png) no-repeat;position: relative;z-index: 9999;}
+			.dia-con1 {width: 663px;height: 625px;background: url(ossweb-img/dialog1.png) no-repeat;position: relative;z-index: 9999;}
+			.dia-close {position: absolute;width: 55px;height: 55px;display: block;top: 0px;right: 0px;}
+			.dia-txt {font-size: 18px;color: #fff;font-family: zhong;text-align: center;width: 570px;height: 150px;position:absolute;left: 92px;top: 130px;}
+			.txt-ul {width: 570px;height: 315px;position:absolute;left: 92px;top: 155px;font-size: 18px;color: #fff;font-family: zhong;text-align: center;}
+			.txt-ul li {margin-bottom: 6px;}
+			.btn-box {width:256px;height: 47px;position: absolute;left: 250px;top: 186px;}
+			.dia-btn {width: 116px;height: 47px;display: block;}
+			.dia-no {background: url(ossweb-img/dia-no.png) no-repeat;float: left;}
+			.dia-sure {background: url(ossweb-img/dia-sure.png) no-repeat;float: right;}
+		</style>
+	</head>
+	<body>
+	<!-- content block -->
+	<div class="content_7 content">
+		<div class="bg1">
+			<div class="bg1-title">极品幸运之旅 <span class="bg1-time">活动时间：2018年00月00日-2018年00月00日</span></div>
+			<ul class="rule">
+				<li class="rule-title">活动说明</li>
+				<li class="rule-li"><span class="yuan">1</span>极品奖励在抽中后，会从奖池内剔除，后续抽奖在剩余奖品中抽取（也就是抽到剩余珍惜奖励的几率可能会更大哦！）</li>
+				<li class="rule-li"><span class="yuan">2</span>你可以选择“新手上路”、“极速狂飙”中任意一个或两个奖池进行抽奖</li>
+				<li class="rule-li"><span class="yuan">3</span>所有珍惜奖励仅可获得一次</li>
+				<li class="rule-li"><span class="yuan">4</span>本活动最终解释权归腾讯公司所有</li>
+			</ul>
+			<ul class="buy-box">
+				<li class="buy buy-l fl">
+					支付1Q币，获得100万SP与一次<br>新手上路抽奖机会
+					<img src="ossweb-img/l.jpg" alt="道具" />
+					<span class="jiang">100万sp+新手上路抽奖机会一次</span>
+					<a href="javascript:showDia(dia2);" class="btn" onclick="PTTSendClick('btn', 'a-item01', '购买一次')">购买一次</a>
+					<a href="javascript:showDia(dia2);;" class="btn last" onclick="PTTSendClick('btn', 'a-item02', '购买十次')">购买十次</a>
+				</li>
+				<li class="buy buy-r fr">
+					支付10Q币，获得1000万SP与一次<br>新手上路抽奖机会
+					<img src="ossweb-img/r.jpg" alt="道具" />
+					<span class="jiang">1000万sp+极速狂飙抽奖机会一次</span>
+					<a href="javascript:showDia(dia2);;" class="btn" onclick="PTTSendClick('btn', 'a-item03', '购买一次')">购买一次</a>
+					<a href="javascript:showDia(dia2);;" class="btn last" onclick="PTTSendClick('btn', 'a-item04', '购买一次')">购买十次</a>
+				</li>
+			</ul>
+		</div>
+		<div class="bg2">
+			<div class="bg2-title">新手上路 </div>
+			<div class="lottery-box clearfix" id="lotterycontent">
+				<div class="lot">
+					<div class="shadow" style="display: block;"></div>
+					<img src="ossweb-img/img1.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img2.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img3.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img4.png" alt="奖品" />
+				</div>
+				<div class="lot last1">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img5.png" alt="奖品" />
+				</div>
+				<div class="lot-box">
+					<div class="lot">
+						<div class="shadow" style="display: none;"></div>
+						<img src="ossweb-img/img6.png" alt="奖品" />
+					</div>
+					<div class="lot-btn">单抽</div>
+					<a href="javascript:showDia(dia1);" class="lot-btn btn-r"  onclick="PTTSendClick('btn', 'a-item05', '十连抽')">十连抽</a>
+					<div class="lot-num">可抽奖次数：0</div>
+					<div class="lot lot1">
+						<div class="shadow" style="display: none;"></div>
+						<img src="ossweb-img/img7.png" alt="奖品" />
+					</div>
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img8.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img9.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img10.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img11.png" alt="奖品" />
+				</div>
+				<div class="lot last1">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img12.png" alt="奖品" />
+				</div>
+				<a href="javascript:;" class="go-buy f" onclick="PTTSendClick('btn', 'a-item06', '购买抽奖次数')">购买抽奖次数</a>
+				<a href="javascript:showDia(dia1);" class="look-buy f" onclick="PTTSendClick('btn', 'a-item07', '查看奖励')">查看奖励</a>
+			</div>
+		</div>
+		<div class="bg3">
+			<div class="bg3-title">极速狂飙 </div>
+			<div class="lottery-box clearfix" id="lotterycontent1">
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img13.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img14.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img15.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img16.png" alt="奖品" />
+				</div>
+				<div class="lot last1">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img17.png" alt="奖品" />
+				</div>
+				<div class="lot-box">
+					<div class="lot">
+						<div class="shadow" style="display: none;"></div>
+						<img src="ossweb-img/img18.png" alt="奖品" />
+					</div>
+					<div class="lot-btn">单抽</div>
+					<a href="javascript:showDia(dia1);" class="lot-btn btn-r" onclick="PTTSendClick('btn', 'a-item08', '十连抽')">十连抽</a>
+					<div class="lot-num">可抽奖次数：0</div>
+					<div class="lot lot1">
+						<div class="shadow" style="display: none;"></div>
+						<img src="ossweb-img/img19.png" alt="奖品" />
+					</div>
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img20.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img21.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img22.png" alt="奖品" />
+				</div>
+				<div class="lot">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img23.png" alt="奖品" />
+				</div>
+				<div class="lot last1">
+					<div class="shadow" style="display: none;"></div>
+					<img src="ossweb-img/img24.png" alt="奖品" />
+				</div>
+				<a href="javascript:;" class="go-buy f" onclick="PTTSendClick('btn', 'a-item09', '购买抽奖次数')">购买抽奖次数</a>
+				<a href="javascript:showDia(dia1);" class="look-buy f" onclick="PTTSendClick('btn', 'a-item10', '查看奖励')">查看奖励</a>
+			</div>
+		</div>
+		<div class="dia" id="dia" style="display:none">
+			<div class="dia-con">
+				<p class="dia-txt">恭喜您获得日产 GT-R BlackEdition2013+3</p>
+				<a class="dia-close" href="javascript:showDialog.hide()" title="关闭"  onclick="PTTSendClick('btn', 'a-item11', '关闭')"></a>
+			</div>
+		</div>
+		<div class="dia" id="dia1" style="display:none">
+			<div class="dia-con1">
+				<!--<p class="dia-txt">恭喜您获得</p>-->
+				<p class="dia-txt">您获得的奖励有</p>
+				<ul class="txt-ul">
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+					<li class="txt">日产 GT-R BlackEdition2013+3</li>
+				</ul>
+				<a class="dia-close" href="javascript:showDialog.hide()" title="关闭" onclick="PTTSendClick('btn', 'a-item12', '关闭')"></a>
+			</div>
+		</div>
+		<div class="dia" id="dia2" style="display:none">
+			<div class="dia-con">
+				<p class="dia-txt">确定购买？</p>
+				<div class="btn-box">
+					<a href="javascript:showDialog.hide();" class="dia-no dia-btn"></a>
+					<a href="javascript:;" class="dia-sure dia-btn"></a>
+				</div>
+				<a class="dia-close" href="javascript:showDialog.hide()" title="关闭" onclick="PTTSendClick('btn', 'a-item13', '关闭')"></a>
+			</div>
+		</div>
+	</div>
+		<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.7.2.min.js"></script>
+		<script src="http://ossweb-img.qq.com/images/js/comm/showDialog.min.js"></script>
+		<script>
+			function showDia(e){
+				showDialog.show({
+					id:e, //需要弹出的id，如果是弹出页面上的div，则该选项为必选
+					bgcolor:"#000",//弹出“遮罩”的颜色，格式为"#FF6600"，可选，默认为"#fff"
+					opacity:50 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+				});
+			}
+		</script>
+		<script src="http://game.gtimg.cn/images/js/delottery/lottery.js"></script>
+		<script>
+			//点击开始抽奖 通知js flash->js
+		
+			//开始抽奖lottery->js
+			function callJsToStart() {
+				lottery.disable();
+				calllotteryToRoll(4);
+			}
+			//开发获得抽奖结果 通知lottery开始播放效果 js->lottery
+			function calllotteryToRoll(id) {
+				if (lottery) lottery.stopRoll(id);
+			}
+			//动画完成通知js lottery->js		
+			function callJsToComplete() {
+				alert('恭喜你获得大奖哟！！');
+			}
+		
+			//初始化抽奖的 可以不知道内部
+			var lottery = new Lottery({
+				'lighturl': 'http://ossweb-img.qq.com/images/js/delottery/sel.png',//外部光圈png 不填写就用默认的效果
+				'starturl': 'http://ossweb-img.qq.com/images/js/delottery/blankstartbtn.png', //外部按钮png 不填写就用默认的按钮效果
+				'width': 1157,//lottery 宽度
+				'height': 447,//lottery 高度
+				'total': 12,//抽奖产品的总数
+				'sbtnx': 295,// 开始抽奖按钮的位置x坐标
+				'sbtny': 190,// 开始抽奖按钮的位置y坐标
+				'sbtnw': 283,// 开始抽奖按钮的宽度
+				'sbtnh': 63,// 开始抽奖按钮的高度
+				'boxw': 218,// 奖品光效的宽度
+				'boxh': 136,//奖品光效的高度 
+				'position': "0_0,235_0,470_0,704_0,938_0,0_152,938_152,0_308,235_308,468_308,702_308,936_308",
+				//奖品光效的位置，对应奖品图片的布局，填入每个奖品的位置以及角度用逗号分割 x_y 例如19_20或者19_20_0 表示第一个奖品的位置 x坐标为19px y坐标为20px 角度为0。）
+				'contentId': 'lotterycontent',//嵌入lottery 的div层的 id 
+				'onClickRollEvent': callJsToStart,//对应上面接口
+				'onCompleteRollEvent': callJsToComplete //对应上面接口
+			});
+		</script>
+		<script>
+			//点击开始抽奖 通知js flash->js
+		
+			//开始抽奖lottery->js
+			function callJsToStart1() {
+				lottery1.disable();
+				calllotteryToRoll1(9);
+			}
+			//开发获得抽奖结果 通知lottery开始播放效果 js->lottery
+			function calllotteryToRoll1(id) {
+				if (lottery1) lottery1.stopRoll(id);
+			}
+			//动画完成通知js lottery->js		
+			function callJsToComplete1() {
+				alert('恭喜你获得大奖哟！！');
+			}
+			//初始化抽奖的 可以不知道内部
+			var lottery1 = new Lottery({
+				'lighturl': 'http://ossweb-img.qq.com/images/js/delottery/sel.png',//外部光圈png 不填写就用默认的效果
+				'starturl': 'http://ossweb-img.qq.com/images/js/delottery/blankstartbtn.png', //外部按钮png 不填写就用默认的按钮效果
+				'width': 1157,//lottery 宽度
+				'height': 447,//lottery 高度
+				'total': 12,//抽奖产品的总数
+				'sbtnx': 295,// 开始抽奖按钮的位置x坐标
+				'sbtny': 190,// 开始抽奖按钮的位置y坐标
+				'sbtnw': 283,// 开始抽奖按钮的宽度
+				'sbtnh': 63,// 开始抽奖按钮的高度
+				'boxw': 218,// 奖品光效的宽度
+				'boxh': 136,//奖品光效的高度 
+				'position': "0_0,235_0,470_0,704_0,938_0,0_152,938_152,0_308,235_308,470_308,704_308,938_308",
+				//奖品光效的位置，对应奖品图片的布局，填入每个奖品的位置以及角度用逗号分割 x_y 例如19_20或者19_20_0 表示第一个奖品的位置 x坐标为19px y坐标为20px 角度为0。）
+				'contentId': 'lotterycontent1',//嵌入lottery 的div层的 id 
+				'onClickRollEvent': callJsToStart1,//对应上面接口
+				'onCompleteRollEvent': callJsToComplete1 //对应上面接口
+			});
+		</script>
+		<!--<script src="//ossweb-img.qq.com/images/js/title.js"></script>-->
+		<!--<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>-->
+		<script type="text/javascript" src="jquery.mCustomScrollbar.min.js"></script>
+		<script src="jquery.mousewheel.min.js"></script>
+		<script>
+			$(".content_7").mCustomScrollbar({
+
+					set_width:"1380px",
+
+					scrollButtons:{
+
+						enable:true
+
+					},
+
+					theme:"light-2"
+
+				});
+				var content_7_height=$(".content_7").height();
+				$(".go-buy").click(function(e){
+
+					e.preventDefault();
+
+					$(".content_7").mCustomScrollbar("scrollTo","top");
+
+				});
+		</script>
+		<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+		<script type="text/javascript">
+		//此段代码不能放到外链JS中，
+		var setSite={ //设置网站属性
+		 siteType:"a20180903xuzl", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+		 pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+		 pageName:"首页", //必填项:页面中文名
+		 osact:0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+		 ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+		 stayTime:0 //选填项:是否需要统计停留时长boolean；默认是0
+		}
+		if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+		</script>
+	</body>
+</html>
